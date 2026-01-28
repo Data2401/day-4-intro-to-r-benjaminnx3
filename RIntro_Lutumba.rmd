@@ -39,25 +39,25 @@ Follow each question's instructions in the code chunk below that question, if ap
 5. Create an object (a variable!) called “obj1” which is the number 15
 
 ```{r}
-obj1 = 15
+obj1 <- 15
 ```
 
 6. Create an object called “obj2”" which is the answer to the sum of 100 + 25
 
 ```{r}
-obj2 = 100 + 25
+obj2 <- 100 + 25
 ```
 
 7. Multiply “obj1” and “obj2” together and store the answer as another object called “obj3”
 
 ```{r}
-obj1 * obj2 -> obj3
+obj3 <- obj1 * obj2
 ```
 
 8. Subtract 1 from “obj3” then calculate the 4th root of the result (raise to power of 1/4). Save this as an object called “final.answer”
 
 ```{r}
-(obj3 - 1)^(1/4) -> final.answer
+final.answer <- (obj3 - 1)^(1/4)
 ```
 
 9. Just type the variable name final.answer in the chunk below. This will print your answer to the console when you knit. 
