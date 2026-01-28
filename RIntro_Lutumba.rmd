@@ -27,7 +27,7 @@ Follow each question's instructions in the code chunk below that question, if ap
 3. Subtract 1.5 from 10 and then raise the answer to the power of 1.3 plus 1.789
 
 ```{r}
-(10-1.5)^1.3+1.789
+(10-1.5)^(1.3+1.789)
 ```
 
 4. Divide 5 by 2.5 then divide the answer by 4
